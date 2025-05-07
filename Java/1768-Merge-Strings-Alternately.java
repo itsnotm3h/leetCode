@@ -1,5 +1,5 @@
 //Solved on 7 May 2025 - Runtime: 5ms , Memory: 43.07mb
-
+//Learning points, there is no need to use Array for this, could have use something else. 
 class Solution {
     public String mergeAlternately(String word1, String word2) {
 
@@ -18,7 +18,7 @@ class Solution {
             return(Final);
         }
         else{
-            // This was the deciding factor that makes it work for all in the end code is too long. 
+            // This was the deciding factor that makes it work for all in the end code is too long.
             int difference =   Math.min(word1.length(), word2.length());
 
             for(int i=0; i < difference; i++)
