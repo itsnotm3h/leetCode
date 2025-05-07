@@ -1,5 +1,6 @@
 //Solved on 7 May 2025 - Runtime: 5ms , Memory: 43.07mb
 //Learning points, there is no need to use Array for this, could have use something else. 
+
 class Solution {
     public String mergeAlternately(String word1, String word2) {
 
