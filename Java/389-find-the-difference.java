@@ -17,7 +17,10 @@ class Solution {
     //2. use XOR. 
 
 
-    //XOR: will only work with there is 1 character different. 
+    //XOR: will only work with there is 1 character different.
+    //x ^ x = 0 (any number XOR itself is 0)
+    // x ^ 0 = x;
+
     char answer = 0;
 
     for(int i=0; i < s.length();i++)
